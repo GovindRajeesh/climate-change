@@ -2,25 +2,25 @@ var causes = [
     {
         link:"/causes/power",
         title: "Generating power",
-        img: "./assets/causes/power.jpg",
+        img: "/assets/causes/power.jpg",
         text: `Generating electricity and heat by burning fossil fuels such as coal, oil and natural gas causes a large chunk of global emissions. Most electricity is still produced from fossil fuels; only about a quarter comes from wind, solar and other renewable sources.`
     },
     {
         link:"/causes/deforestation",
         title: "Cutting down forests",
-        img: "./assets/causes/deforestation.jpg",
+        img: "/assets/causes/deforestation.jpg",
         text: `Cutting down forests to create farms or pastures, or for other reasons, causes emissions, since trees, when they are cut, release the carbon they have been storing. Since forests absorb carbon dioxide, destroying them also limits nature’s ability to keep emissions out of the atmosphere.`
     },
     {
         link:"/causes/transportation",
         title: "Using transportation",
-        img: "./assets/causes/pollution.jpg",
+        img: "/assets/causes/pollution.jpg",
         text: `Most cars, lorries, ships and planes run on fossil fuels. That makes transportation a major contributor of greenhouse gases, especially carbon-dioxide emissions. Road vehicles account for the largest part, but emissions from ships and planes continue to grow.`
     },
     {
         link:"/causes/consumption",
         title: "Consuming too much",
-        img: "./assets/causes/garbage.jpg",
+        img: "/assets/causes/garbage.jpg",
         text: `Your home and use of power, how you move around, what you eat and how much you throw away all contribute to greenhouse gas emissions. So does the consumption of goods such as clothing, electronics and plastics.`
     },
 ]
@@ -28,32 +28,32 @@ var causes = [
 var impacts = [
     {
         title: "Hotter Temperatures",
-        img: "./assets/impacts/hot_temp.jpg",
+        img: "/assets/impacts/hot_temp.jpg",
         text: `Higher temperatures increase heat-related illnesses and can make it more difficult to work and move around. Wildfires start more easily and spread more rapidly when conditions are hotter.`,
         link:"/impacts/hotTemp",
     },
     {
         title: "Severe Storms",
-        img: "./assets/impacts/storm.jpg",
+        img: "/assets/impacts/storm.jpg",
         text: "Changes in temperature cause changes in rainfall. This results in more severe and frequent storms. They cause flooding and landslides, destroying homes and communities, and costing billions of pounds.",
         link:"/impacts/storms",
     },
     {
         link:"/impacts/drought",
         title: "Increased drought",
-        img: "./assets/impacts/drought.jpg",
+        img: "/assets/impacts/drought.jpg",
         text: "Water is becoming scarcer in more regions. Droughts can stir destructive sand and dust storms that can move billions of tons of sand across continents. Deserts are expanding, reducing land for growing food."
     },
     {
         link:"/impacts/species",
         title: "Loss of species",
-        img: "./assets/impacts/loss_of_species.jpg",
+        img: "/assets/impacts/loss_of_species.jpg",
         text: "Climate change poses risks to the survival of species on land and in the ocean. These risks increase as temperatures climb. Forest fires, extreme weather and invasive pests and diseases are among many threats."
     },
     {
         link:"/impacts/food",
         title: "Not enough food",
-        img: "./assets/impacts/food.jpg",
+        img: "/assets/impacts/food.jpg",
         text: "Changes in climate and increases in extreme weather events are among the reasons behind a global rise in hunger and poor nutrition. Fisheries crops, and livestock may be destroyed or become less productive.",
     },
 ]
@@ -62,32 +62,32 @@ var impacts = [
 var actions = [
     {
         title: "Save Energy at Home",
-        img: "./assets/actions/energy.png",
+        img: "/assets/actions/energy.png",
         text: `Use less energy by lowering your heating and cooling, switching to LED light bulbs and energy-efficient electric appliances, washing your laundry with cold water or hanging things to dry instead of using a dryer.`
     },
     {
         title: "Walk, cycle or take public transport",
-        img: "./assets/actions/cycle.png",
+        img: "/assets/actions/cycle.png",
         text: `The world’s roads are clogged with vehicles, most of them burning diesel or petrol. Walking or riding a bike instead of driving will reduce greenhouse gas emissions – and help your health and fitness.`
     },
     {
         title: "Eat more vegetables",
-        img: "./assets/actions/vegetables.png",
+        img: "/assets/actions/vegetables.png",
         text: "Eating more vegetables, fruits, whole grains, legumes, nuts and seeds, and less meat and dairy, can significantly lower your environmental impact. Producing plant-based foods generally results in fewer greenhouse gas emissions and requires less energy, land and water."
     },
     {
         title: "Reduce, reuse, repair & recycle",
-        img: "./assets/actions/rrr.png",
+        img: "/assets/actions/rrr.png",
         text: `Electronics, clothes and other items we buy cause carbon emissions at each point in production, from the extraction of raw materials to manufacturing and transporting goods to market. To protect our climate, buy fewer things, shop second-hand, repair what you can and recycle.`
     },
     {
         title: "Change your home's source of energy",
-        img: "./assets/actions/solarpanel.png",
+        img: "/assets/actions/solarpanel.png",
         text: `Ask your utility company if your home energy comes from oil, coal or gas. If possible, see if you can switch to renewable sources such as wind or solar. Or install solar panels on your roof to generate energy for your home.`
     },
     {
         title: "Consider your travel",
-        img: "./assets/actions/travel.png",
+        img: "/assets/actions/travel.png",
         text: `Aeroplanes burn large amounts of fossil fuels, producing significant greenhouse gas emissions. That makes taking fewer flights one of the fastest ways to reduce your environmental impact. When you can, meet virtually, take a train or skip that long-distance trip altogether.`
     },
 ]
