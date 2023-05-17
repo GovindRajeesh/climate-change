@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <style>
+        p{
+            line-height:2rem;
+        }
+        .hero{
+            background-image: url("{{hero}}");
+            height: 65vh;
+        }
+
+        p.w{
+            width: 50rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+              <h1>{{title}}</h1>
+            </div>
+          </section>
+          {{#each texts as |text|}}
+          <section class="container flexjcenter">
+            <p class="t-center w">
+                {{{text}}}
+            </p>
+          </section>
+          {{/each}}
+          <br>
+          {{#if extra}}
+          <section class="container flexjcenter">
+                <div>
+                    {{{extra}}}
+                </div>
+          </section>
+          {{/if}}
+          {{#if images.length}}
+
+          <h2 class="t-center">Images</h2>
+          <br>
+          <br>
+          <section class="flexjcenter">
+            <div class="img-grid">
+                {{#each images as |image|}}
+                <div class="flexjcenter">
+                    <img class="grid-img" src="{{image}}" alt="{{title}}">
+                </div>
+                {{/each}}
+            </div>
+          </section>
+          {{/if}}
+          <br><br>
+    </main>
+</body>
+</html>

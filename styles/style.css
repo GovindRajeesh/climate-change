@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html,body{
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+body{
+  font-family: sans-serif;
+  padding-top: 0px;
+  margin:0;
+  overflow-x: hidden;
+}
+
+ul{
+  line-height: 2rem;
+}
+
+.hide{
+  opacity:0
+}
+
+a{
+  color: rgb(0, 140, 255);
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+.flexjcenter{
+  display: flex;
+  justify-content: center;
+}
+
+h1,h2,h3,h4{
+  font-weight:normal;
+}
+
+.t-center{
+  text-align: center;
+}
+
+.t-grey{
+  color: #808080;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.t-white{
+  color:white;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('../assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.overview{
+  width:100%;
+}
+
+.overview-img{
+  width: 15rem;
+}
+
+
+.hide{
+  opacity: 0;
+}
+
+@media only screen and (max-width:600px) {
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .container{
+    width: 100%;
+  }
+}
