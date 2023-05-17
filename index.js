@@ -25,4 +25,4 @@ app.get("/", function (req, res) {
 app.use("/impacts", impactsRouter)
 app.use("/causes", causesRouter)
 
-app.listen(process.env.port || 3000)
+app.listen(process.env.PORT || 3000, "0.0.0.0",()=>{})
