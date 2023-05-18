@@ -92,7 +92,7 @@ var timeout
 
 var moveSlideAuto=()=>{
     moveSlide(current+1)
-    timeout=setTimeout(moveSlideAuto,3500)
+    timeout=setTimeout(moveSlideAuto,5000)
 }
 
 timeout=setTimeout(moveSlideAuto,300)
@@ -100,13 +100,13 @@ timeout=setTimeout(moveSlideAuto,300)
 sdFwd.addEventListener("click",()=>{
     clearTimeout(timeout)
     moveSlide(current+1)
-    timeout=setTimeout(moveSlideAuto,3000)
+    timeout=setTimeout(moveSlideAuto,5000)
 })
 
 sdBwd.addEventListener("click",()=>{
     clearTimeout(timeout)
     moveSlide(current-1)
-    timeout=setTimeout(moveSlideAuto,3000)
+    timeout=setTimeout(moveSlideAuto,5000)
 })
 
 sdIndicator.innerText=(current+1).toString()+"/"+impacts.length.toString()
