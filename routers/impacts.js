@@ -20,8 +20,7 @@ router.get("/hotTemp",(req,res)=>{
 router.get("/storms",(req,res)=>{
     texts=[
         "Changes in temperature cause changes in rainfall. This results in more severe and frequent storms. They cause flooding and landslides, destroying homes and communities, and costing billions of pounds.",
-        "As more water vapor is evaporated into the atmosphere it becomes fuel for more powerful storms to develop.",
-        "Climate change is making the air warmer, which allows it to hold more moisture, and both of those factors can boost the chance of thunderstorms."
+        "More heat in the atmosphere and warmer ocean surface temperatures can lead to increased wind speeds in tropical storms. Rising sea levels expose higher locations not usually subjected to the power of the sea and to the erosive forces of waves and currents."
     ]
 
     images=[
