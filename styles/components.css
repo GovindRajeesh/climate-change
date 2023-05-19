@@ -161,6 +161,10 @@
     padding: 2px;
 }
 
+.list#actions{
+    width: 75%;
+}
+
 #causes>* {
     background-color: #d54b4b;
 }
@@ -398,6 +402,10 @@
     }
 
     .listitem {
+        width: 100%;
+    }
+
+    .list#actions{
         width: 100%;
     }
 }
