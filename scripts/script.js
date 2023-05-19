@@ -145,41 +145,41 @@ for(var i=0;i<causes.length;i++){
     causeList.appendChild(item)
 }
 
-// var grflex=document.createElement("div")
+var grflex=document.createElement("div")
 
-// for(var index=0;index<actions.length;index++){
-//     var action = actions[index]
-//     grflex.className="gr-flex"
+for(var index=0;index<actions.length;index++){
+    var action = actions[index]
+    grflex.className="gr-flex"
 
-//     var item = document.createElement("div")
-//     item.className = "listitem borderless"
+    var item = document.createElement("div")
+    item.className = "listitem borderless"
 
-//     var body = document.createElement("div")
-//     body.className = "listitem-body"
+    var body = document.createElement("div")
+    body.className = "listitem-body"
 
-//     var titleP = document.createElement("p")
-//     titleP.innerText = action.title
-//     body.appendChild(titleP)
+    var titleP = document.createElement("p")
+    titleP.innerText = action.title
+    body.appendChild(titleP)
 
-//     var textP = document.createElement("p")
-//     textP.innerText = action.text
-//     textP.className="t-grey"
-//     body.appendChild(textP)
+    var textP = document.createElement("p")
+    textP.innerText = action.text
+    textP.className="t-grey"
+    body.appendChild(textP)
 
-//     var img = document.createElement("img")
-//     img.className = "listitem-img"
-//     img.src = action.img
+    var img = document.createElement("img")
+    img.className = "listitem-img"
+    img.src = action.img
 
-//     item.appendChild(img)
-//     item.appendChild(body)
+    item.appendChild(img)
+    item.appendChild(body)
 
-//     grflex.appendChild(item)
+    grflex.appendChild(item)
 
-//     if((index+1)%2==0 | index==(actions.length-1)){
-//         actionsList.appendChild(grflex)
-//         grflex=document.createElement("div")
-//     }
-// }
+    if((index+1)%2==0 | index==(actions.length-1)){
+        actionsList.appendChild(grflex)
+        grflex=document.createElement("div")
+    }
+}
 
 for(var i=0;i<policies.length;i++){
     var policy=policies[i]
