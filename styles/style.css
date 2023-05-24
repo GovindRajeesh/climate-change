@@ -15,6 +15,8 @@ body{
   padding-top: 0px;
   margin:0;
   overflow-x: hidden;
+  font-size:x-large;
+  background-color:#fcebb6;
 }
 
 ul{
@@ -34,6 +36,22 @@ a:hover{
   opacity: 0.5;
 }
 
+button{
+  border: none;
+  background-color: rgb(0, 153, 255);
+  color:white;
+  min-width: 5rem;
+  min-width: 2rem;
+  outline: none !important;
+  border-radius: 10px;
+  font-size: normal;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
 .flexjcenter{
   display: flex;
   justify-content: center;
@@ -47,8 +65,8 @@ h1,h2,h3,h4{
   text-align: center;
 }
 
-.t-grey{
-  color: #808080;
+.t-maroon{
+  color: maroon;
 }
 
 .btn {
@@ -78,6 +96,12 @@ a{
 
 .t-white{
   color:white;
+}
+
+.bl-translucent{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  width:18rem;
 }
 
 .hero {
@@ -117,6 +141,14 @@ a{
 
 .hide{
   opacity: 0;
+}
+
+footer{
+  color: #7a7a7a;
+}
+
+.footer-sub{
+  font-size: medium;
 }
 
 @media only screen and (max-width:600px) {

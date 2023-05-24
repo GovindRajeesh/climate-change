@@ -75,7 +75,7 @@ for(var i=0;i<impacts.length;i++){
     tCont.appendChild(text)
 
     var link=document.createElement("a")
-    link.innerText="Learn More"
+    link.innerText="Explore"
     link.href=impact.link
     tCont.appendChild(link)
 
@@ -92,21 +92,21 @@ var timeout
 
 var moveSlideAuto=()=>{
     moveSlide(current+1)
-    timeout=setTimeout(moveSlideAuto,5000)
+    timeout=setTimeout(moveSlideAuto,10000)
 }
 
-timeout=setTimeout(moveSlideAuto,300)
+timeout=setTimeout(moveSlideAuto,10000)
 
 sdFwd.addEventListener("click",()=>{
     clearTimeout(timeout)
     moveSlide(current+1)
-    timeout=setTimeout(moveSlideAuto,5000)
+    timeout=setTimeout(moveSlideAuto,10000)
 })
 
 sdBwd.addEventListener("click",()=>{
     clearTimeout(timeout)
     moveSlide(current-1)
-    timeout=setTimeout(moveSlideAuto,5000)
+    timeout=setTimeout(moveSlideAuto,10000)
 })
 
 sdIndicator.innerText=(current+1).toString()+"/"+impacts.length.toString()
@@ -131,7 +131,7 @@ for(var i=0;i<causes.length;i++){
     body.appendChild(textP)
 
     var link=document.createElement("a")
-    link.innerText="Learn More"
+    link.innerText="Explore"
     link.href=cause.link
     body.appendChild(link)
 
@@ -163,11 +163,12 @@ for(var index=0;index<actions.length;index++){
 
     var textP = document.createElement("p")
     textP.innerText = action.text
-    textP.className="t-grey"
+    textP.className="t-maroon"
     body.appendChild(textP)
 
     var img = document.createElement("img")
     img.className = "listitem-img"
+    img.style.height="100px"
     img.src = action.img
 
     item.appendChild(img)

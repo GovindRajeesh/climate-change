@@ -85,7 +85,7 @@
 
 .slide-text {
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 20px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -140,13 +140,13 @@
     display: flex;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 10px;
-    width: 50rem;
+    width: 75rem;
     margin-bottom: 10px;
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .listitem:not(.borderless)>.listitem-img {
-    width: 5rem;
+    width: 10rem;
     margin-right: 2px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -166,7 +166,7 @@
 }
 
 #causes>* {
-    background-color: #d54b4b;
+    background-color: #5e412f;
 }
 
 #causes>*>.t-grey {
@@ -191,8 +191,8 @@
 }
 
 .jumbotron-dg {
-    background-color: rgb(0, 89, 0);
-    color: white;
+    background-color: rgb(24,162,24);
+    color: rgb(255, 255, 255);
 }
 
 .jumbotron-khaki {
@@ -201,13 +201,29 @@
 }
 
 .jumbotron-yellow {
-    background-color: rgb(255, 255, 53);
-    color: black;
+    background-color: #f0a830;
+    color: rgb(255, 255, 255);
 }
 
 .jumbotron-green {
     background-color: rgb(81, 212, 81);
     /* color:white; */
+}
+
+.jumbotron-sienna{
+    background-color: #d07746;
+    color: white;
+}
+
+.jumbotron-neptune{
+    background-color:#78c0a8;
+    color:white;
+}
+
+.jumbotron-tango{
+    background-color: #f0a830;
+    color: white;
+
 }
 
 .slide-right {
@@ -223,6 +239,7 @@
     border:none;
     background-color: white;
     cursor: pointer;
+    color: black;
     width:5rem;
     height: 2rem;
     font-size: large;
@@ -261,10 +278,12 @@
     flex-direction: column;
     width: 75%;
     border-bottom: 1px solid grey;
+    font-size: large;
 }
 
 .accordion-white {
     color: white;
+    border-bottom: 1px solid rgb(240, 240, 240);
 }
 
 .accordion-white>* {
@@ -292,7 +311,6 @@
     justify-content: end;
     align-items: center;
     height: 100%;
-    font-size: xx-large;
 }
 
 .accordion-btn:hover {
@@ -332,6 +350,24 @@
     flex-direction: row-reverse;
 }
 
+.fl-btn-outer{
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
+
+.fl-btn{
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0px;
+}
+
+.fl-btn>img{
+    height: 2rem;
+    width: 2rem;
+}
+
 
 @keyframes wide-open {
     0% {
@@ -368,6 +404,26 @@
         margin-bottom: 10px;
     }
 
+    .list#actions{
+        width: 100%;
+    }
+
+    .listitem {
+        width: 100%;
+    }
+
+    .gr-flex {
+        flex-direction: column;
+    }
+    .lm{
+        width: 100%;
+    }
+
+    .lm-item {
+        flex-direction: column;
+        width: 100%;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -408,6 +464,7 @@
     .list#actions{
         width: 100%;
     }
+
 }
 
 .img-grid{

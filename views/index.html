@@ -20,14 +20,18 @@
         <p>Join us in the fight against climate change by learning about its impacts and taking simple steps to reduce
           your carbon footprint. Together, we can create a more sustainable future for ourselves and the planet.</p>
         <br>
-        <p class="t-center">Keep Scrolling to Learn More</p>
+        <div class="flexjcenter">
+          <button onclick="document.querySelector('.overview').scrollIntoView()">
+            <p class="t-center">&#11117; Explore &#11117;</p>
+          </button>
+        </div>
       </div>
     </section>
     <br>
     <section class="container overview">
       <div class="flexjcenter" id="intro">
-        <div class="card hoverable" style="width: 20rem;">
-          <img src="/assets/forest-fire.jpg" alt="Forest Fire" class="card-img">
+        <div class="card hoverable" style="width: 30rem;border-radius:20px;">
+          <img src="/assets/forest-fire.jpg" alt="Forest Fire" class="card-img" style="border-top-left-radius:20px;border-top-right-radius: 20px;">
           <div class="card-body">
             <h2 class="t-center">Climate Change</h2>
             <div class="flexjcenter">
@@ -71,14 +75,14 @@
       </div>
     </section>
     <br><br>
-    <section class="container actions jumbotron jumbotron-beige slide-right">
+    <section class="container actions jumbotron jumbotron-tango slide-right">
       <h1 class="t-center">Things to be done</h1>
       <div class="flexjcenter">
         <div class="list" id="actions" style="width: 75%;">
         </div>
       </div>
     </section>
-    <section class="container actions jumbotron jumbotron-dg">
+    <section class="container actions jumbotron jumbotron-sienna">
       <h1 class="t-center">Climate Policies</h1>
       <div id="policies">
       </div>
@@ -87,11 +91,11 @@
     <section class="container jumbotron jumbotron-olive">
       <h1 style="font-size:xxx-large;" class="t-center rowdy">Mitigation & Adaptation</h1>
     </section>
-    <section class="container jumbotron jumbotron-green">
+    <section class="container jumbotron jumbotron-neptune">
       <h1 class="t-center scroll-transition full-pop">Electric Plane</h1>
       <br>
       <div class="flexjcenter scroll-transition full-pop">
-        <div class="card" style="width:18rem;">
+        <div class="card" style="width:20rem;">
           <img class="card-img" src="/assets/plane.jpg" alt="" srcset="">
           <div class="card-body">
             <p class="t-center">
@@ -103,7 +107,7 @@
       </div>
       <br>
       <h2 class="t-center">Advantages of electric plane</h2>
-      <div class="flexjcenter scroll-transition full-pop" style="font-size:large">
+      <div class="flexjcenter scroll-transition full-pop">
         <ul style="width:50rem;">
           <li>
             <span>Reduced Fuel Costs:</span>
@@ -125,13 +129,13 @@
       </div>
       <h2 class="t-center">Feasibility</h2>
       <div class="flexjcenter scroll-transition full-pop">
-        <p style="font-size:large;width:50rem">Batteries have been packing more power into smaller spaces for about 30 years, and continuing
+        <p style="width:50rem">Batteries have been packing more power into smaller spaces for about 30 years, and continuing
           improvements could help electric planes become a more feasible option for flying. </p>
       </div>
       <br>
 
     </section>
-    <section class="container jumbotron jumbotron-yellow" style="font-size:large">
+    <section class="container jumbotron jumbotron-yellow">
       <h1 class="t-center">Recycling Currency System</h1>
       <br>
       <div class="flexjcenter">
@@ -174,12 +178,12 @@
         </div>
       </div>
     </section>
-    <!-- Learn More -->
+    <!-- Explore -->
     <section id="lm" class="container jumbotron jumbotron-khaki">
-      <h1 class="t-center">Learn More About Climate Change</h1>
+      <h1 class="t-center">Explore About Climate Change</h1>
       <br>
       <div class="flexjcenter">
-        <div>
+        <div class="lm">
           <div class="lm-item">
             <div class="lm-10">
               <img class="lm-img" src="/assets/drivers.png" alt="">
@@ -235,8 +239,17 @@
         </div>
       </div>
     </section>
-    <br><br>
+    <br>
+    <div class="fl-btn-outer">
+      <button class="fl-btn">
+        <img src="/assets/icons/menu.svg">
+      </button>
+    </div>
   </main>
+  <footer>
+    <p class="t-center">Climate Change Website</p>
+    <p class="t-center footer-sub">Created by students of GAES</p>
+  </footer>
   <script src="/scripts/data.js"></script>
   <script src="/scripts/script.js"></script>
 </body>
