@@ -1,7 +1,32 @@
 .rowdy {
     src: url("/styles/fonts/Rowdies-Bold.ttf");
     font-family: 'Rowdies', cursive;
-    ;
+    
+}
+
+@font-face{
+    src:url("/styles/fonts/Chubby.ttf");
+    font-family: Raspberie;
+}
+
+.chubby{
+    font-family: Raspberie;
+}
+
+h1,h2,h3{
+    font-family: Raspberie;
+}
+
+.t-black{
+    color:black;
+}
+
+input,textarea{
+    border: none;
+    border-radius: 5px;
+    min-height: 2rem;
+    outline: none !important;
+    width:100%;
 }
 
 .splash {
@@ -27,6 +52,40 @@
 
 .splash-move {
     animation: move-up 2s linear;
+}
+
+.menu-outer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    top:0;
+    background-color:rgba(255,255,255,0.7);
+}
+
+.menu{
+    width:50%;
+    height: 75%;
+    border-radius:20px;
+    background-color: white;
+}
+
+.menu-outer:not(.show){
+    display:none;
+}
+
+.menu-close{
+    font-size: large;
+    background-color: transparent;
+    color: black;
+    font-weight:bold;
+}
+
+.menu-body{
+    padding: 5px;
 }
 
 @keyframes spin {
@@ -182,12 +241,16 @@
 }
 
 .jumbotron-beige {
-    background-color: #ffff88;
+    background-color: var(--beige);
 }
 
 .jumbotron-olive {
-    background-color: #556B2F;
+    background-color: var(--olive);
     color: white;
+}
+
+.jumbotron-grey{
+    background-color: var(--grey)
 }
 
 .jumbotron-dg {
@@ -196,34 +259,46 @@
 }
 
 .jumbotron-khaki {
-    background-color: #C3B091;
+    background-color: var(--khaki);
     color: white;
 }
 
 .jumbotron-yellow {
-    background-color: #f0a830;
+    background-color: var(--yellow);
     color: rgb(255, 255, 255);
 }
 
 .jumbotron-green {
-    background-color: rgb(81, 212, 81);
+    background-color: var(--green);
     /* color:white; */
 }
 
 .jumbotron-sienna{
-    background-color: #d07746;
+    background-color: var(--sienna);
     color: white;
 }
 
 .jumbotron-neptune{
-    background-color:#78c0a8;
+    background-color:var(--neptune);
     color:white;
 }
 
 .jumbotron-tango{
-    background-color: #f0a830;
+    background-color: var(--yellow);
     color: white;
 
+}
+
+.ma{
+    background:linear-gradient(to bottom, var(--sienna) 0%, var(--neptune) 100%);
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.ma-text{
+    font-size: 3.5rem;
 }
 
 .slide-right {
@@ -427,6 +502,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .menu{
+        width:100%;
+        height: 100%;
+    }
+
     .grid#impacts {
         grid-template-columns: 15rem;
     }

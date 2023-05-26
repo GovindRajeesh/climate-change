@@ -7,6 +7,7 @@
   <title>Climate Change</title>
   <link href="/styles/components.css" rel="stylesheet" type="text/css" />
   <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="/assets/icons/icon.svg">
 </head>
 
 <body>
@@ -17,7 +18,8 @@
     <section class="hero">
       <div class="hero-content scroll-transition scroll-text-transition">
         <h1>Take Action Against Climate Change Today</h1>
-        <p>Join us in the fight against climate change by learning about its impacts and taking simple steps to reduce
+        <p style="font-size: larger;">Join us in the fight against climate change by learning about its impacts and
+          taking simple steps to reduce
           your carbon footprint. Together, we can create a more sustainable future for ourselves and the planet.</p>
         <br>
         <div class="flexjcenter">
@@ -27,11 +29,13 @@
         </div>
       </div>
     </section>
-    <br>
+
     <section class="container overview">
+      <br>
       <div class="flexjcenter" id="intro">
         <div class="card hoverable" style="width: 30rem;border-radius:20px;">
-          <img src="/assets/forest-fire.jpg" alt="Forest Fire" class="card-img" style="border-top-left-radius:20px;border-top-right-radius: 20px;">
+          <img src="/assets/forest-fire.jpg" alt="Forest Fire" class="card-img"
+            style="border-top-left-radius:20px;border-top-right-radius: 20px;">
           <div class="card-body">
             <h2 class="t-center">Climate Change</h2>
             <div class="flexjcenter">
@@ -74,13 +78,14 @@
         </div>
       </div>
     </section>
-    <br><br>
-    <section class="container actions jumbotron jumbotron-tango slide-right">
+    <section class="container actions jumbotron jumbotron-tango">
       <h1 class="t-center">Things to be done</h1>
       <div class="flexjcenter">
         <div class="list" id="actions" style="width: 75%;">
         </div>
       </div>
+    </section>
+    <section class="jumbotron" style="background:linear-gradient(to bottom, var(--yellow) 0%, var(--sienna) 100%);">
     </section>
     <section class="container actions jumbotron jumbotron-sienna">
       <h1 class="t-center">Climate Policies</h1>
@@ -88,8 +93,8 @@
       </div>
       <br><br>
     </section>
-    <section class="container jumbotron jumbotron-olive">
-      <h1 style="font-size:xxx-large;" class="t-center rowdy">Mitigation & Adaptation</h1>
+    <section class="container jumbotron ma" id="m&a">
+      <h1 class="t-center chubby ma-text">Mitigation & Adaptation</h1>
     </section>
     <section class="container jumbotron jumbotron-neptune">
       <h1 class="t-center scroll-transition full-pop">Electric Plane</h1>
@@ -129,14 +134,17 @@
       </div>
       <h2 class="t-center">Feasibility</h2>
       <div class="flexjcenter scroll-transition full-pop">
-        <p style="width:50rem">Batteries have been packing more power into smaller spaces for about 30 years, and continuing
+        <p style="width:50rem">Batteries have been packing more power into smaller spaces for about 30 years, and
+          continuing
           improvements could help electric planes become a more feasible option for flying. </p>
       </div>
       <br>
 
     </section>
+    <section class="jumbotron" style="background:linear-gradient(to bottom, var(--neptune) 0%, var(--yellow) 100%);">
+    </section>
     <section class="container jumbotron jumbotron-yellow">
-      <h1 class="t-center">Recycling Currency System</h1>
+      <h1 class="t-center">Currency For Recycling System</h1>
       <br>
       <div class="flexjcenter">
         <div style="width: 50rem;">
@@ -178,9 +186,11 @@
         </div>
       </div>
     </section>
-    <!-- Explore -->
-    <section id="lm" class="container jumbotron jumbotron-khaki">
-      <h1 class="t-center">Explore About Climate Change</h1>
+    <section class="jumbotron" style="background:linear-gradient(to bottom, var(--yellow) 0%,  var(--khaki) 100%);">
+    </section>
+    <!-- Learn -->
+    <section id="lm" class="container jumbotron jumbotron-khaki t-black" style="color:black;">
+      <h1 class="t-center">Learn About Climate Change</h1>
       <br>
       <div class="flexjcenter">
         <div class="lm">
@@ -245,11 +255,80 @@
         <img src="/assets/icons/menu.svg">
       </button>
     </div>
+
   </main>
   <footer>
-    <p class="t-center">Climate Change Website</p>
-    <p class="t-center footer-sub">Created by students of GAES</p>
+    <p class="t-center">Climate Change <img class="icon" src="/assets/icons/icon.svg"></p>
+    <div class="f-flex">
+        <div class="credits">
+          
+          <div class="flexjcenter">
+            <div>
+              <p>Credits</p>
+              <ul>
+                <li>Govind Rajeesh (<a href="https://www.instagram.com/govindrajeesh/">@govindrajeesh</a>)</li>
+                <li>Mohammed Shaaz (<a href="https://www.instagram.com/sh.azzzzzz/">@sh.azzzzzz</a>)</li>
+                <li>Fouad</li>
+                <li>Ishaan</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <div class="query">
+        <p class="t-center">Contact us</p>
+        <div class="flexjcenter" style="width:100%;">
+          <form action="" method="post">
+            <div>
+              <textarea name="query" cols="30" rows="10" placeholder="What would like to know about?"></textarea>
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="Enter your email">
+            </div>
+            <br>
+            <div class="flexjcenter">
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+        <br><br>
+      </div>
+    </div>
   </footer>
+  <div class="menu-outer">
+    <div class="menu">
+      <button class="menu-close" id="menu-close">
+        X
+      </button>
+      <div class="menu-body">
+        <h2 class="t-center">Menu</h2>
+        <div class="flexjcenter">
+          <ul class="menu-links">
+            <li class="menu-link">
+              <a href="#intro">Introduction</a>
+            </li>
+            <li class="menu-link">
+              <a href="#impacts">Impacts</a>
+            </li>
+            <li class="menu-link">
+              <a href="#causes">Causes</a>
+            </li>
+            <li class="menu-link">
+              <a href="#actions">Things To Do</a>
+            </li>
+            <li class="menu-link">
+              <a href="#policies">Policies</a>
+            </li>
+            <li class="menu-link">
+              <a href="#m&a">Mitigation & Adaptation</a>
+            </li>
+            <li class="menu-link">
+              <a href="#lm">Learn More About Climate Change</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="/scripts/data.js"></script>
   <script src="/scripts/script.js"></script>
 </body>

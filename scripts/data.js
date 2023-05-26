@@ -12,16 +12,16 @@ var causes = [
         text: `Cutting down forests to create farms or pastures, or for other reasons, causes emissions, since trees, when they are cut, release the carbon they have been storing. Since forests absorb carbon dioxide, destroying them also limits nature’s ability to keep emissions out of the atmosphere.`
     },
     {
-        link:"/causes/transportation",
-        title: "Using transportation",
-        img: "/assets/causes/pollution.jpg",
-        text: `Most cars, lorries, ships and planes run on fossil fuels. That makes transportation a major contributor of greenhouse gases, especially carbon-dioxide emissions. Road vehicles account for the largest part, but emissions from ships and planes continue to grow.`
-    },
-    {
         link:"/causes/consumption",
         title: "Consuming too much",
         img: "/assets/causes/garbage.jpg",
         text: `Your home and use of power, how you move around, what you eat and how much you throw away all contribute to greenhouse gas emissions. So does the consumption of goods such as clothing, electronics and plastics.`
+    },
+    {
+        link:"/causes/transportation",
+        title: "Using transportation",
+        img: "/assets/causes/pollution.jpg",
+        text: `Most cars, lorries, ships and planes run on fossil fuels. That makes transportation a major contributor of greenhouse gases, especially carbon-dioxide emissions. Road vehicles account for the largest part, but emissions from ships and planes continue to grow.`
     },
 ]
 

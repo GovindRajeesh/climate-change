@@ -237,6 +237,20 @@ var st_elements=document.querySelectorAll(".scroll-transition")
 for(var i=0;i<st_elements.length;i++){
     observer.observe(st_elements[i])
 }
+
+document.querySelector("#menu-close").addEventListener("click",()=>{
+    document.querySelector(".menu-outer").classList.remove("show")
+})
+
+document.querySelector(".fl-btn").addEventListener("click",()=>{
+    document.querySelector(".menu-outer").classList.add("show")
+})
+
+document.querySelectorAll(".menu-link").forEach((l)=>{
+    l.addEventListener("click",()=>{
+        document.querySelector(".menu-outer").classList.remove("show")
+    })
+})
 // setTimeout(()=>{
 //     document.querySelector(".splash").classList.add("splash-move")
 //     setTimeout(()=>{
