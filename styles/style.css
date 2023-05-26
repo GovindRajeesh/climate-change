@@ -52,11 +52,15 @@ button{
   background-color: rgb(0, 153, 255);
   color:white;
   min-width: 5rem;
-  min-height: 2rem;
+  
   outline: none !important;
   border-radius: 10px;
   font-size: normal;
   cursor: pointer;
+}
+
+button:not(.fl-btn){
+  min-height: 2rem;
 }
 
 button:hover{
