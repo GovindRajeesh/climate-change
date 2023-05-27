@@ -374,6 +374,7 @@ input,textarea{
     border: none;
     cursor: pointer;
     font-size: large;
+    font-weight: bolder;
 }
 
 .accordion-btn>:first-child {
